@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons8.png" type="image/png">
+    <title>My Shop</title>
+</head>
+<body>
+    
+    <header class="header">
+       <h1 class="header-title">My Shop</h1>    
+       <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search products...">
+        <button id="search-button">Search</button>
+        </div>
+        <div class="pagination" id="pagination"></div>   
+    </header>
+
+    
+    
+    <section class="container">
+        <!-- element container-->
+        <div class="container-items" id="product-container">
+            
+                     
+        </div>
+        <!-- Shopping Cart -->
+        <div class="cart" id="cart">
+            <div class="header-cart">
+                <h2>Your Cart</h2>
+            </div>
+
+            <div class="cart-items">  
+                
+            </div>
+
+            <div class="cart-total">
+                <div class="row">
+                    <strong>Your Total</strong>
+                    <span class="cart-price-total">
+                        0
+                    </span>
+                </div>
+                <button class="btn-pay">Pay<i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
